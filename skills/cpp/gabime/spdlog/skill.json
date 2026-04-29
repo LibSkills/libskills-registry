@@ -22,23 +22,66 @@
   },
   "completeness": 100,
   "risk_level": "medium",
-  "tags": ["logging", "async", "thread-safe", "header-only", "fmt"],
+  "tags": [
+    "logging",
+    "async",
+    "thread-safe",
+    "header-only",
+    "fmt"
+  ],
   "compatibility": {
-    "c++": ["11", "14", "17", "20", "23"],
-    "compilers": ["clang>=3.4", "gcc>=4.8", "msvc>=2015"],
-    "platforms": ["linux-x64", "linux-arm64", "macos-x64", "macos-arm64", "windows-x64"]
+    "c++": [
+      "11",
+      "14",
+      "17",
+      "20",
+      "23"
+    ],
+    "compilers": [
+      "clang>=3.4",
+      "gcc>=4.8",
+      "msvc>=2015"
+    ],
+    "platforms": [
+      "linux-x64",
+      "linux-arm64",
+      "macos-x64",
+      "macos-arm64",
+      "windows-x64"
+    ]
   },
   "dependencies": {
-    "required": ["fmt"],
+    "required": [
+      "fmt"
+    ],
     "optional": [],
-    "skills": ["cpp/fmtlib/fmt"]
+    "skills": [
+      "cpp/fmtlib/fmt"
+    ]
   },
-  "read_order": ["overview.md", "pitfalls.md", "safety.md"],
+  "read_order": [
+    "quickstart.md",
+    "overview.md",
+    "pitfalls.md",
+    "safety.md"
+  ],
   "files": {
-    "P0": ["overview.md", "pitfalls.md", "safety.md"],
-    "P1": ["lifecycle.md", "threading.md", "best-practices.md"],
-    "P2": ["performance.md"],
-    "P3": ["examples/basic.cpp"]
+    "P0": [
+      "quickstart.md"
+    ],
+    "P1": [
+      "overview.md",
+      "pitfalls.md",
+      "safety.md"
+    ],
+    "P2": [
+      "best-practices.md",
+      "lifecycle.md"
+    ],
+    "P3": [
+      "performance.md",
+      "threading.md"
+    ]
   },
   "inherits": null
 }

@@ -22,22 +22,56 @@
   },
   "completeness": 100,
   "risk_level": "low",
-  "tags": ["serialization", "json", "derive", "zero-copy", "no-std"],
+  "tags": [
+    "serialization",
+    "json",
+    "derive",
+    "zero-copy",
+    "no-std"
+  ],
   "compatibility": {
-    "rust": ["1.56", "1.65", "1.75", "stable"],
-    "platforms": ["linux-x64", "linux-arm64", "macos-x64", "macos-arm64", "windows-x64"]
+    "rust": [
+      "1.56",
+      "1.65",
+      "1.75",
+      "stable"
+    ],
+    "platforms": [
+      "linux-x64",
+      "linux-arm64",
+      "macos-x64",
+      "macos-arm64",
+      "windows-x64"
+    ]
   },
   "dependencies": {
     "required": [],
     "optional": [],
     "skills": []
   },
-  "read_order": ["overview.md", "pitfalls.md", "safety.md"],
+  "read_order": [
+    "quickstart.md",
+    "overview.md",
+    "pitfalls.md",
+    "safety.md"
+  ],
   "files": {
-    "P0": ["overview.md", "pitfalls.md", "safety.md"],
-    "P1": ["lifecycle.md", "threading.md", "best-practices.md"],
-    "P2": ["performance.md"],
-    "P3": ["examples/basic.rs"]
+    "P0": [
+      "quickstart.md"
+    ],
+    "P1": [
+      "overview.md",
+      "pitfalls.md",
+      "safety.md"
+    ],
+    "P2": [
+      "best-practices.md",
+      "lifecycle.md"
+    ],
+    "P3": [
+      "performance.md",
+      "threading.md"
+    ]
   },
   "inherits": null
 }

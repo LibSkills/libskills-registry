@@ -22,23 +22,59 @@
   },
   "completeness": 100,
   "risk_level": "low",
-  "tags": ["formatting", "string", "printf", "compile-time", "c++20"],
+  "tags": [
+    "formatting",
+    "string",
+    "printf",
+    "compile-time",
+    "c++20"
+  ],
   "compatibility": {
-    "c++": ["17", "20", "23"],
-    "compilers": ["clang>=5", "gcc>=8", "msvc>=2019"],
-    "platforms": ["linux-x64", "macos-x64", "macos-arm64", "windows-x64"]
+    "c++": [
+      "17",
+      "20",
+      "23"
+    ],
+    "compilers": [
+      "clang>=5",
+      "gcc>=8",
+      "msvc>=2019"
+    ],
+    "platforms": [
+      "linux-x64",
+      "macos-x64",
+      "macos-arm64",
+      "windows-x64"
+    ]
   },
   "dependencies": {
     "required": [],
     "optional": [],
     "skills": []
   },
-  "read_order": ["overview.md", "pitfalls.md", "safety.md"],
+  "read_order": [
+    "quickstart.md",
+    "overview.md",
+    "pitfalls.md",
+    "safety.md"
+  ],
   "files": {
-    "P0": ["overview.md", "pitfalls.md", "safety.md"],
-    "P1": ["lifecycle.md", "threading.md", "best-practices.md"],
-    "P2": ["performance.md"],
-    "P3": ["examples/basic.cpp"]
+    "P0": [
+      "quickstart.md"
+    ],
+    "P1": [
+      "overview.md",
+      "pitfalls.md",
+      "safety.md"
+    ],
+    "P2": [
+      "best-practices.md",
+      "lifecycle.md"
+    ],
+    "P3": [
+      "performance.md",
+      "threading.md"
+    ]
   },
   "inherits": null
 }
