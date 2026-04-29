@@ -1,0 +1,68 @@
+{
+  "repo": "gabime/spdlog",
+  "safe_name": "gabime_spdlog",
+  "results": [
+    {
+      "strategy": "Custom",
+      "scores": {
+        "structure": 2.0,
+        "read_order": 1.5,
+        "pitfalls_quality": 2.5,
+        "quickstart_quality": 2.5,
+        "total": 8.5
+      },
+      "details": {
+        "structure": {
+          "present": [
+            "quickstart.md",
+            "overview.md",
+            "pitfalls.md",
+            "safety.md",
+            "best-practices.md",
+            "lifecycle.md",
+            "performance.md",
+            "threading.md"
+          ],
+          "missing": []
+        },
+        "read_order": {
+          "skill_json": true,
+          "read_order": [
+            "quickstart.md",
+            "overview.md",
+            "pitfalls.md",
+            "safety.md"
+          ],
+          "cross_references": 5,
+          "cross_ref_details": {
+            "quickstart.md": [
+              "pitfalls.md",
+              "safety.md"
+            ],
+            "overview.md": [
+              "safety.md"
+            ],
+            "best-practices.md": [
+              "safety.md"
+            ],
+            "threading.md": [
+              "safety.md"
+            ]
+          },
+          "read_order_valid": "4/4 files exist"
+        },
+        "pitfalls_reason": "Good examples but missing context on static destructor timing",
+        "quickstart_reason": "Clear, correct, and immediately usable"
+      }
+    }
+  ],
+  "manual": null,
+  "summary": {
+    "best_strategy": "Custom",
+    "best_score": 8.5,
+    "all_scores": {
+      "Custom": 8.5
+    },
+    "manual_score": null
+  }
+}
