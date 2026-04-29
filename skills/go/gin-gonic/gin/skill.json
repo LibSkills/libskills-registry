@@ -1,43 +1,75 @@
 {
-  "name": "gin",
-  "repo": "gin-gonic/gin",
-  "language": "go",
-  "tier": "tier1",
-  "group": "main",
-  "version": "1.10.0",
-  "skill_version": "0.1.0",
-  "schema": "libskills/v1",
-  "skill_type": "library",
-  "repo_skill": true,
-  "trust_score": 96,
-  "verified": true,
-  "official": true,
-  "updated_at": "2026-04-29T00:00:00Z",
-  "trust_score_sources": {
-    "official_review": 40,
-    "stars": 20,
-    "community_votes": 20,
-    "update_freshness": 10,
-    "issue_health": 6
-  },
-  "completeness": 100,
-  "risk_level": "medium",
-  "tags": ["web", "http", "middleware", "routing", "rest"],
-  "compatibility": {
-    "go": [">=1.21"],
-    "platforms": ["linux-x64", "linux-arm64", "macos-x64", "macos-arm64", "windows-x64"]
-  },
-  "dependencies": {
-    "required": [],
-    "optional": [],
-    "skills": []
-  },
-  "read_order": ["overview.md", "pitfalls.md", "safety.md"],
-  "files": {
-    "P0": ["overview.md", "pitfalls.md", "safety.md"],
-    "P1": ["lifecycle.md", "threading.md", "best-practices.md"],
-    "P2": ["performance.md"],
-    "P3": ["examples/basic.go"]
-  },
-  "inherits": null
+    "name": "gin",
+    "repo": "gin-gonic/gin",
+    "language": "go",
+    "tier": "tier1",
+    "group": "main",
+    "version": "1.10.0",
+    "skill_version": "0.1.0",
+    "schema": "libskills/v1",
+    "skill_type": "library",
+    "repo_skill": true,
+    "trust_score": 96,
+    "verified": true,
+    "official": true,
+    "updated_at": "2026-04-29T00:00:00Z",
+    "trust_score_sources": {
+        "official_review": 40,
+        "stars": 20,
+        "community_votes": 20,
+        "update_freshness": 10,
+        "issue_health": 6
+    },
+    "completeness": 100,
+    "risk_level": "medium",
+    "tags": [
+        "web",
+        "http",
+        "middleware",
+        "routing",
+        "rest"
+    ],
+    "compatibility": {
+        "go": [
+            ">=1.21"
+        ],
+        "platforms": [
+            "linux-x64",
+            "linux-arm64",
+            "macos-x64",
+            "macos-arm64",
+            "windows-x64"
+        ]
+    },
+    "dependencies": {
+        "required": [],
+        "optional": [],
+        "skills": []
+    },
+    "read_order": [
+        "quickstart.md",
+        "overview.md",
+        "pitfalls.md",
+        "safety.md"
+    ],
+    "files": {
+        "P0": [
+            "quickstart.md",
+            "overview.md",
+            "pitfalls.md",
+            "safety.md"
+        ],
+        "P1": [
+            "lifecycle.md",
+            "threading.md",
+            "best-practices.md"
+        ],
+        "P2": [
+            "performance.md"
+        ],
+        "P3": [
+            "examples/basic.go"
+        ]
+    },
+    "inherits": null
 }
