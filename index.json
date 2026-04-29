@@ -1,7 +1,55 @@
 {
   "version": "1.0",
-  "updated_at": "2026-04-29T00:00:00Z",
+  "updated_at": "2026-04-29T17:23:12Z",
   "skills": [
+    {
+      "key": "cpp/abseil/abseil-cpp",
+      "name": "abseil-cpp",
+      "repo": "abseil/abseil-cpp",
+      "language": "c++",
+      "tier": "core",
+      "group": "utility",
+      "version": "1.0.0",
+      "skill_version": "0.2.0",
+      "trust_score": 85,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "cpp",
+        "abseil-cpp",
+        "google",
+        "utility"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/abseil/abseil-cpp",
+      "source_type": "community"
+    },
+    {
+      "key": "cpp/facebook/rocksdb",
+      "name": "rocksdb",
+      "repo": "facebook/rocksdb",
+      "language": "c++",
+      "tier": "core",
+      "group": "database",
+      "version": "11.0.4",
+      "skill_version": "1.0.0",
+      "trust_score": 92,
+      "verified": true,
+      "official": true,
+      "tags": [
+        "cpp",
+        "rocksdb",
+        "embedded-database",
+        "key-value-store",
+        "lsm-tree",
+        "storage-engine"
+      ],
+      "summary": "",
+      "risk_level": "low",
+      "repo_source_url": "https://github.com/facebook/rocksdb",
+      "source_type": "official"
+    },
     {
       "key": "cpp/fmtlib/fmt",
       "name": "fmt",
@@ -24,7 +72,6 @@
       "summary": "",
       "risk_level": "low",
       "repo_source_url": "https://github.com/fmtlib/fmt",
-      "repo_skill": true,
       "source_type": "official"
     },
     {
@@ -49,7 +96,54 @@
       "summary": "",
       "risk_level": "medium",
       "repo_source_url": "https://github.com/gabime/spdlog",
-      "repo_skill": true,
+      "source_type": "official"
+    },
+    {
+      "key": "cpp/google/benchmark",
+      "name": "benchmark",
+      "repo": "google/benchmark",
+      "language": "cpp",
+      "tier": "core",
+      "group": "testing",
+      "version": "1.9.5",
+      "skill_version": "0.1.0",
+      "trust_score": 85,
+      "verified": true,
+      "official": true,
+      "tags": [
+        "benchmark",
+        "performance",
+        "testing",
+        "microbenchmark",
+        "profiling"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/google/benchmark",
+      "source_type": "official"
+    },
+    {
+      "key": "cpp/google/googletest",
+      "name": "googletest",
+      "repo": "google/googletest",
+      "language": "cpp",
+      "tier": "tier1",
+      "group": "main",
+      "version": "1.17.0",
+      "skill_version": "0.1.0",
+      "trust_score": 92,
+      "verified": true,
+      "official": true,
+      "tags": [
+        "testing",
+        "unit-test",
+        "testing-framework",
+        "gtest",
+        "gmock"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/google/googletest",
       "source_type": "official"
     },
     {
@@ -72,8 +166,100 @@
       "summary": "",
       "risk_level": "medium",
       "repo_source_url": "https://github.com/nlohmann/json",
-      "repo_skill": true,
       "source_type": "official"
+    },
+    {
+      "key": "cpp/opencv/opencv",
+      "name": "opencv",
+      "repo": "opencv/opencv",
+      "language": "c++",
+      "tier": "core",
+      "group": "image",
+      "version": "5.0.0-alpha",
+      "skill_version": "0.1.0",
+      "trust_score": 95,
+      "verified": true,
+      "official": true,
+      "tags": [
+        "computer-vision",
+        "image-processing",
+        "ml",
+        "c++"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/opencv/opencv",
+      "source_type": "official"
+    },
+    {
+      "key": "cpp/protocolbuffers/protobuf",
+      "name": "protobuf",
+      "repo": "protocolbuffers/protobuf",
+      "language": "cpp",
+      "tier": "core",
+      "group": "serialization",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 85,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "cpp",
+        "protobuf"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/protocolbuffers/protobuf",
+      "source_type": "community"
+    },
+    {
+      "key": "cpp/sqlite/sqlite",
+      "name": "sqlite",
+      "repo": "sqlite/sqlite",
+      "language": "c++",
+      "tier": "core",
+      "group": "database",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 85,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "cpp",
+        "sqlite",
+        "database",
+        "embedded-database",
+        "sql"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/sqlite/sqlite",
+      "source_type": "community"
+    },
+    {
+      "key": "cpp/yhirose/cpp-httplib",
+      "name": "cpp-httplib",
+      "repo": "yhirose/cpp-httplib",
+      "language": "cpp",
+      "tier": "core",
+      "group": "networking",
+      "version": "0.43.1",
+      "skill_version": "0.1.0",
+      "trust_score": 85,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "cpp",
+        "cpp-httplib",
+        "http",
+        "https",
+        "networking",
+        "header-only"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/yhirose/cpp-httplib",
+      "source_type": "community"
     },
     {
       "key": "go/gin-gonic/gin",
@@ -97,7 +283,6 @@
       "summary": "",
       "risk_level": "medium",
       "repo_source_url": "https://github.com/gin-gonic/gin",
-      "repo_skill": true,
       "source_type": "official"
     },
     {
@@ -123,7 +308,6 @@
       "summary": "",
       "risk_level": "medium",
       "repo_source_url": "https://github.com/httplib/net-http",
-      "repo_skill": true,
       "source_type": "official"
     },
     {
@@ -147,7 +331,6 @@
       "summary": "",
       "risk_level": "low",
       "repo_source_url": "https://github.com/uber-go/zap",
-      "repo_skill": true,
       "source_type": "official"
     },
     {
@@ -172,7 +355,6 @@
       "summary": "",
       "risk_level": "medium",
       "repo_source_url": "https://github.com/psf/requests",
-      "repo_skill": true,
       "source_type": "official"
     },
     {
@@ -197,7 +379,6 @@
       "summary": "",
       "risk_level": "low",
       "repo_source_url": "https://github.com/pytest-dev/pytest",
-      "repo_skill": true,
       "source_type": "official"
     },
     {
@@ -221,7 +402,6 @@
       "summary": "",
       "risk_level": "high",
       "repo_source_url": "https://github.com/sqlalchemy/sqlalchemy",
-      "repo_skill": true,
       "source_type": "official"
     },
     {
@@ -246,7 +426,6 @@
       "summary": "",
       "risk_level": "medium",
       "repo_source_url": "https://github.com/tiangolo/fastapi",
-      "repo_skill": true,
       "source_type": "official"
     },
     {
@@ -271,7 +450,6 @@
       "summary": "",
       "risk_level": "low",
       "repo_source_url": "https://github.com/serde-rs/serde",
-      "repo_skill": true,
       "source_type": "official"
     },
     {
@@ -296,7 +474,6 @@
       "summary": "",
       "risk_level": "high",
       "repo_source_url": "https://github.com/tokio-rs/tokio",
-      "repo_skill": true,
       "source_type": "official"
     }
   ]
