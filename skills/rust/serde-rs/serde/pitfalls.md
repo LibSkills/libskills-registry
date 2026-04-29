@@ -23,20 +23,39 @@ enum Message {
 }
 ```
 
-## Do NOT use `deny_unknown_fields` in APIs that may evolve
+## `deny_unknown_fields` — know when to use it
 
-`#[serde(deny_unknown_fields)]` rejects JSON with unknown keys. This breaks forward compatibility — a newer API version adding a field will cause your deserialization to fail.
+`#[serde(deny_unknown_fields)]` rejects JSON with unknown keys. This is **good for security** but **bad for forward compatibility**.
 
 ```rust
-// BAD: breaks when API adds new fields
+// This breaks when API adds new fields:
 #[derive(Deserialize)]
 #[serde(deny_unknown_fields)]
 struct Config { url: String }
 // Input: {"url": "...", "timeout": 30} → Error!
+```
 
-// GOOD: silently ignore unknown fields (default behavior)
+**Choose based on your scenario:**
+
+| Scenario | Recommended |
+|---|----|
+| External API / user input — catch typos and injection | ✅ Use `deny_unknown_fields` |
+| Evolving API — new fields may appear | ❌ Skip it, or use `#[serde(default)]` on optional fields |
+| Both strict + compatible — validation first, lenient fallback | Write a custom `Deserialize` that validates, then falls back |
+| Internal config file you control | Usually unnecessary; use it if you want to catch renames |
+
+A practical middle-ground pattern:
+
+```rust
 #[derive(Deserialize)]
-struct Config { url: String }
+#[serde(deny_unknown_fields)]
+struct StrictConfig {
+    url: String,
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    timeout: Option<u64>,  // optional now, might become required later
+}
+// Input: {"url": "...", "timeout": 30} → OK
+// Input: {"url": "...", "unknown": "x"} → Error (catches typos)
 ```
 
 ## Do NOT use `#[serde(flatten)]` with duplicate keys

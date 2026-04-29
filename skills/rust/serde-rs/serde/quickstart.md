@@ -55,7 +55,7 @@ fn default_limit() -> u32 { 100 }
 
 ```rust
 #[derive(Serialize, Deserialize)]
-#[serde(deny_unknown_fields)]  // <-- ALWAYS use this for untrusted input
+#[serde(deny_unknown_fields)]  // <-- use this for untrusted input
 struct ApiResponse {
     status: String,
     data: Option<String>,
@@ -65,6 +65,14 @@ struct ApiResponse {
 // BAD: without deny_unknown_fields, typos like "staus" are silently ignored
 // GOOD: with deny_unknown_fields, "staus" causes a deserialization error
 ```
+
+⚠️ **When to use `deny_unknown_fields`** — it's not always the right choice:
+
+- **External API / user input**: ✅ Use `deny_unknown_fields`. Catches typos and unexpected fields.
+- **Evolving API (fields may be added)**: ❌ Don't use it, or use `#[serde(deny_unknown_fields)]` together with `#[serde(skip_serializing_if = "Option::is_none")]` on optional fields.
+- **Strict validation + forward compatibility**: Write a custom deserialization function that validates required fields strictly, then falls back to a lenient mode for unknown fields.
+
+See [pitfalls](./pitfalls.md) for the trade-off in detail.
 
 ## Flatten (merge nested structs)
 
