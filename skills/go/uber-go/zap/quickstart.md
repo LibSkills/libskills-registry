@@ -14,6 +14,8 @@
 
 ## Production configuration
 
+**Default production config** (JSON output, ISO8601 timestamps):
+
 ```go
 package main
 
@@ -32,7 +34,6 @@ func main() {
 
 	// Export to global loggers
 	zap.ReplaceGlobals(logger)
-	defer zap.RedirectStdLog(logger) // optional: redirect log.Print to zap
 
 	// Usage
 	logger.Info("server starting",
@@ -43,23 +44,33 @@ func main() {
 	// Output: {"level":"info","ts":...,"msg":"server starting","addr":":8080","port":8080,"timeout":"30s"}
 }
 
-// Development config — console output, debug level, color
-func devLogger() (*zap.Logger, error) {
-	cfg := zap.NewDevelopmentConfig()
-	cfg.EncoderConfig.EncodeLevel = zapcore.CapitalColorLevelEncoder
+**Custom config with custom encoder keys:**
+
+```go
+func initLogger() (*zap.Logger, error) {
+	cfg := zap.NewProductionConfig()
+	cfg.EncoderConfig.TimeKey = "timestamp"
+	cfg.EncoderConfig.EncodeTime = zapcore.ISO8601TimeEncoder
+	cfg.EncoderConfig.LevelKey = "severity"
+	cfg.EncoderConfig.MessageKey = "message"
+	cfg.OutputPaths = []string{"stdout", "/var/log/app.log"}
+	cfg.Level = zap.NewAtomicLevelAt(zap.InfoLevel)
+	cfg.Sampling = &zap.SamplingConfig{Initial: 100, Thereafter: 100}
 	return cfg.Build()
 }
 
-// Custom production config
-func customLogger() (*zap.Logger, error) {
-	cfg := zap.NewProductionConfig()
-	cfg.OutputPaths = []string{"stdout", "/var/log/app.log"}
-	cfg.ErrorOutputPaths = []string{"stderr"}
-	cfg.Level = zap.NewAtomicLevelAt(zap.InfoLevel)
-	cfg.Sampling = &zap.SamplingConfig{
-		Initial:    100,
-		Thereafter: 100,
-	}
+// In main:
+// logger, err := initLogger()
+// if err != nil { panic(err) }
+// defer logger.Sync()
+// zap.ReplaceGlobals(logger)
+
+**Development config — console output, debug level, color:**
+
+```go
+func devLogger() (*zap.Logger, error) {
+	cfg := zap.NewDevelopmentConfig()
+	cfg.EncoderConfig.EncodeLevel = zapcore.CapitalColorLevelEncoder
 	return cfg.Build()
 }
 ```
