@@ -2,9 +2,9 @@
 
 Common mistakes that cause crashes, data loss, or silent corruption.
 
-## Do NOT access a `nullptr` / missing key without checking
+## Do NOT access a missing key without checking
 
-Accessing a missing key with `operator[]` on a `const json` throws `json::out_of_range`. On a non-const `json`, it inserts a `null` value (silently).
+Accessing a missing key with `operator[]` on a `const json` throws `json::out_of_range`. On a non-const `json`, it inserts a `null` value silently (and then returns it).
 
 ```cpp
 // BAD: non-const operator[] creates null entry silently

@@ -28,21 +28,21 @@ async def get_users_with_posts(db: AsyncSession):
 
 ## Stale ORM Objects After Commit
 
-After `session.commit()`, the session's identity map still holds the pre-commit state. Reading the object again within the same session returns the cached version — NOT the database state.
+After `session.commit()`, objects are marked as "expired". Attribute access (except primary keys) triggers a DB reload. This can mask the actual state if the DB was modified by another transaction.
 
 ```python
-# BAD: reads stale cached object
+# BAD: surprise reload after commit
+session.add(user)
+session.commit()  # user is now expired
+print(user.name)  # ✅ triggers SELECT — but what if DB changed?
+
+# GOOD: explicit refresh to get latest DB state
 session.add(user)
 session.commit()
-user.name = "changed"
-print(user.name)  # "changed" (local)
-session.refresh(user)
-print(user.name)  # ❌ expected "changed" from DB? No — refresh writes session state
+session.refresh(user)  # ✅ explains the intent
 
-# GOOD: understand identity map — commit does NOT flush local changes
-# For a fresh read, use a new session or expire the object
-session.expire(user)
-# next access triggers a DB load
+# GOOD: use expire_on_commit=False to keep cached values
+session = sessionmaker(engine, expire_on_commit=False)()
 ```
 
 ## Forgetting `await` on AsyncSession Operations

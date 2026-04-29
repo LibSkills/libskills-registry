@@ -59,7 +59,9 @@ api.Use(AuthMiddleware())
 }
 ```
 
-## Context value passing
+## Context value passing (safe in goroutines)
+
+Always extract context values as typed strings/ints inside the handler, then pass them to goroutines by value. Do NOT use `c.Get("key").(string)` type assertion inside a goroutine.
 
 ```go
 // Middleware: set value
@@ -75,11 +77,16 @@ func AuthMiddleware() gin.HandlerFunc {
 	}
 }
 
-// Handler: read value
+// Handler: read value BEFORE goroutine, pass by value
 func getUser(c *gin.Context) {
 	userID, _ := c.Get("user_id")
-	c.JSON(200, gin.H{"user_id": userID})
+	userIDStr := userID.(string)     // ✅ type assert in handler, not goroutine
+	go func(id string) {
+		log.Printf("Processing for user %s", id)  // ✅ safe: string is copyable
+	}(userIDStr)
+	c.JSON(200, gin.H{"user_id": userIDStr})
 }
+```
 ```
 
 ## Bind JSON request body
