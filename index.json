@@ -1,7 +1,28 @@
 {
   "version": "1.0",
-  "updated_at": "2026-04-29T17:23:23Z",
+  "updated_at": "2026-04-29T21:15:15Z",
   "skills": [
+    {
+      "key": "cpp/Neargye/nameof",
+      "name": "nameof",
+      "repo": "Neargye/nameof",
+      "language": "cpp",
+      "tier": "utility",
+      "group": "reflection",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 85,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "cpp",
+        "nameof"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/Neargye/nameof",
+      "source_type": "community"
+    },
     {
       "key": "cpp/abseil/abseil-cpp",
       "name": "abseil-cpp",
@@ -23,6 +44,48 @@
       "summary": "",
       "risk_level": "medium",
       "repo_source_url": "https://github.com/abseil/abseil-cpp",
+      "source_type": "community"
+    },
+    {
+      "key": "cpp/catchorg/Catch2",
+      "name": "Catch2",
+      "repo": "catchorg/Catch2",
+      "language": "cpp",
+      "tier": "core",
+      "group": "testing",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 85,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "cpp",
+        "catch2"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/catchorg/Catch2",
+      "source_type": "community"
+    },
+    {
+      "key": "cpp/facebook/folly",
+      "name": "folly",
+      "repo": "facebook/folly",
+      "language": "cpp",
+      "tier": "tier1",
+      "group": "main",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 85,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "cpp",
+        "folly"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/facebook/folly",
       "source_type": "community"
     },
     {
@@ -147,6 +210,48 @@
       "source_type": "official"
     },
     {
+      "key": "cpp/grpc/grpc",
+      "name": "grpc",
+      "repo": "grpc/grpc",
+      "language": "cpp",
+      "tier": "tier1",
+      "group": "main",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 85,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "cpp",
+        "grpc"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/grpc/grpc",
+      "source_type": "community"
+    },
+    {
+      "key": "cpp/microsoft/cpprestsdk",
+      "name": "cpprestsdk",
+      "repo": "microsoft/cpprestsdk",
+      "language": "cpp",
+      "tier": "tier1",
+      "group": "main",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 85,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "cpp",
+        "cpprestsdk"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/microsoft/cpprestsdk",
+      "source_type": "community"
+    },
+    {
       "key": "cpp/nlohmann/json",
       "name": "json",
       "repo": "nlohmann/json",
@@ -167,6 +272,27 @@
       "risk_level": "medium",
       "repo_source_url": "https://github.com/nlohmann/json",
       "source_type": "official"
+    },
+    {
+      "key": "cpp/oneapi-src/oneTBB",
+      "name": "oneTBB",
+      "repo": "oneapi-src/oneTBB",
+      "language": "cpp",
+      "tier": "tier1",
+      "group": "main",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 85,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "cpp",
+        "onetbb"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/oneapi-src/oneTBB",
+      "source_type": "community"
     },
     {
       "key": "cpp/opencv/opencv",
@@ -213,6 +339,27 @@
       "source_type": "community"
     },
     {
+      "key": "cpp/simdjson/simdjson",
+      "name": "simdjson",
+      "repo": "simdjson/simdjson",
+      "language": "cpp",
+      "tier": "tier1",
+      "group": "main",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 85,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "cpp",
+        "simdjson"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/simdjson/simdjson",
+      "source_type": "community"
+    },
+    {
       "key": "cpp/sqlite/sqlite",
       "name": "sqlite",
       "repo": "sqlite/sqlite",
@@ -234,6 +381,27 @@
       "summary": "",
       "risk_level": "medium",
       "repo_source_url": "https://github.com/sqlite/sqlite",
+      "source_type": "community"
+    },
+    {
+      "key": "cpp/taskflow/taskflow",
+      "name": "taskflow",
+      "repo": "taskflow/taskflow",
+      "language": "cpp",
+      "tier": "tier1",
+      "group": "main",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 85,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "cpp",
+        "taskflow"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/taskflow/taskflow",
       "source_type": "community"
     },
     {
@@ -262,6 +430,27 @@
       "source_type": "community"
     },
     {
+      "key": "cpp/zeromq/cppzmq",
+      "name": "cppzmq",
+      "repo": "zeromq/cppzmq",
+      "language": "cpp",
+      "tier": "advanced",
+      "group": "networking",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 85,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "cpp",
+        "cppzmq"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/zeromq/cppzmq",
+      "source_type": "community"
+    },
+    {
       "key": "go/gin-gonic/gin",
       "name": "gin",
       "repo": "gin-gonic/gin",
@@ -284,6 +473,28 @@
       "risk_level": "medium",
       "repo_source_url": "https://github.com/gin-gonic/gin",
       "source_type": "official"
+    },
+    {
+      "key": "go/go-sql-driver/mysql",
+      "name": "mysql",
+      "repo": "go-sql-driver/mysql",
+      "language": "go",
+      "tier": "core",
+      "group": "database",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 85,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "go",
+        "mysql",
+        "database"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/go-sql-driver/mysql",
+      "source_type": "community"
     },
     {
       "key": "go/httplib/net-http",
@@ -311,6 +522,50 @@
       "source_type": "official"
     },
     {
+      "key": "go/lib/pq",
+      "name": "pq",
+      "repo": "lib/pq",
+      "language": "go",
+      "tier": "core",
+      "group": "database",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 85,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "go",
+        "postgresql",
+        "pq"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/lib/pq",
+      "source_type": "community"
+    },
+    {
+      "key": "go/redis/go-redis",
+      "name": "go-redis",
+      "repo": "redis/go-redis",
+      "language": "go",
+      "tier": "core",
+      "group": "database",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 85,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "go",
+        "redis",
+        "go-redis"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/redis/go-redis",
+      "source_type": "community"
+    },
+    {
       "key": "go/uber-go/zap",
       "name": "zap",
       "repo": "uber-go/zap",
@@ -331,6 +586,30 @@
       "summary": "",
       "risk_level": "low",
       "repo_source_url": "https://github.com/uber-go/zap",
+      "source_type": "official"
+    },
+    {
+      "key": "python/numpy/numpy",
+      "name": "numpy",
+      "repo": "numpy/numpy",
+      "language": "python",
+      "tier": "core",
+      "group": "data",
+      "version": "2.2.0",
+      "skill_version": "0.1.0",
+      "trust_score": 90,
+      "verified": true,
+      "official": true,
+      "tags": [
+        "array",
+        "numerical",
+        "math",
+        "scientific",
+        "linear-algebra"
+      ],
+      "summary": "",
+      "risk_level": "low",
+      "repo_source_url": "https://github.com/numpy/numpy",
       "source_type": "official"
     },
     {
@@ -355,6 +634,30 @@
       "summary": "",
       "risk_level": "medium",
       "repo_source_url": "https://github.com/psf/requests",
+      "source_type": "official"
+    },
+    {
+      "key": "python/psycopg/psycopg2",
+      "name": "psycopg2",
+      "repo": "psycopg/psycopg2",
+      "language": "python",
+      "tier": "core",
+      "group": "database",
+      "version": "2.9.10",
+      "skill_version": "0.1.0",
+      "trust_score": 92,
+      "verified": true,
+      "official": true,
+      "tags": [
+        "postgresql",
+        "database",
+        "sql",
+        "db-api",
+        "connection-pooling"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/psycopg/psycopg2",
       "source_type": "official"
     },
     {
@@ -427,6 +730,90 @@
       "risk_level": "medium",
       "repo_source_url": "https://github.com/tiangolo/fastapi",
       "source_type": "official"
+    },
+    {
+      "key": "rust/diesel-rs/diesel",
+      "name": "diesel",
+      "repo": "diesel-rs/diesel",
+      "language": "rust",
+      "tier": "core",
+      "group": "database",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 85,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "rust",
+        "diesel"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/diesel-rs/diesel",
+      "source_type": "community"
+    },
+    {
+      "key": "rust/hyperium/hyper",
+      "name": "hyper",
+      "repo": "hyperium/hyper",
+      "language": "rust",
+      "tier": "core",
+      "group": "networking",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 85,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "rust",
+        "hyper"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/hyperium/hyper",
+      "source_type": "community"
+    },
+    {
+      "key": "rust/rayon-rs/rayon",
+      "name": "rayon",
+      "repo": "rayon-rs/rayon",
+      "language": "rust",
+      "tier": "core",
+      "group": "concurrency",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 85,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "rust",
+        "rayon"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/rayon-rs/rayon",
+      "source_type": "community"
+    },
+    {
+      "key": "rust/rust-lang/reqwest",
+      "name": "reqwest",
+      "repo": "rust-lang/reqwest",
+      "language": "rust",
+      "tier": "core",
+      "group": "networking",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 85,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "rust",
+        "reqwest"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/rust-lang/reqwest",
+      "source_type": "community"
     },
     {
       "key": "rust/serde-rs/serde",
