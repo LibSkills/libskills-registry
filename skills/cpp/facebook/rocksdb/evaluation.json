@@ -1,0 +1,71 @@
+{
+  "repo": "facebook/rocksdb",
+  "safe_name": "facebook_rocksdb",
+  "results": [
+    {
+      "strategy": "Custom",
+      "scores": {
+        "structure": 2.0,
+        "read_order": 1.5,
+        "pitfalls_quality": 2.5,
+        "quickstart_quality": 2.0,
+        "total": 8.0
+      },
+      "details": {
+        "structure": {
+          "present": [
+            "quickstart.md",
+            "overview.md",
+            "pitfalls.md",
+            "safety.md",
+            "best-practices.md",
+            "lifecycle.md",
+            "performance.md",
+            "threading.md"
+          ],
+          "missing": []
+        },
+        "read_order": {
+          "skill_json": true,
+          "read_order": [
+            "quickstart.md",
+            "overview.md",
+            "pitfalls.md",
+            "safety.md",
+            "best-practices.md",
+            "lifecycle.md",
+            "performance.md",
+            "threading.md"
+          ],
+          "cross_references": 6,
+          "cross_ref_details": {
+            "quickstart.md": [
+              "overview.md",
+              "pitfalls.md",
+              "lifecycle.md"
+            ],
+            "overview.md": [
+              "performance.md"
+            ],
+            "threading.md": [
+              "safety.md",
+              "performance.md"
+            ]
+          },
+          "read_order_valid": "8/8 files exist"
+        },
+        "pitfalls_reason": "Good examples and real-world relevance, but missing some clarity on production options.",
+        "quickstart_reason": "Good examples but incomplete\nThe document provides copy-paste code covering open/put/get/delete/iterate/batch operations with proper error handling and cleanup, earning points for usability and correctness. However, it lacks essential operations like closing the DB (only shows delete) and misses a complete production skeleton with proper resource management (e.g., missing close method, incomplete class)."
+      }
+    }
+  ],
+  "manual": null,
+  "summary": {
+    "best_strategy": "Custom",
+    "best_score": 8.0,
+    "all_scores": {
+      "Custom": 8.0
+    },
+    "manual_score": null
+  }
+}
