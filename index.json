@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-04-29T22:02:57Z",
+  "updated_at": "2026-04-29T22:04:06Z",
   "skills": [
     {
       "key": "cpp/Neargye/nameof",
@@ -561,6 +561,31 @@
       "source_type": "community"
     },
     {
+      "key": "go/aws/aws-sdk-go",
+      "name": "aws-sdk-go",
+      "repo": "aws/aws-sdk-go",
+      "language": "go",
+      "tier": "core",
+      "group": "cloud",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 85,
+      "verified": true,
+      "official": true,
+      "tags": [
+        "aws",
+        "cloud",
+        "sdk",
+        "go",
+        "s3",
+        "ec2"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/aws/aws-sdk-go",
+      "source_type": "official"
+    },
+    {
       "key": "go/gin-gonic/gin",
       "name": "gin",
       "repo": "gin-gonic/gin",
@@ -604,6 +629,30 @@
       "summary": "",
       "risk_level": "medium",
       "repo_source_url": "https://github.com/go-sql-driver/mysql",
+      "source_type": "community"
+    },
+    {
+      "key": "go/gorilla/mux",
+      "name": "mux",
+      "repo": "gorilla/mux",
+      "language": "go",
+      "tier": "core",
+      "group": "web",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 85,
+      "verified": true,
+      "official": false,
+      "tags": [
+        "http",
+        "router",
+        "web",
+        "go",
+        "rest"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/gorilla/mux",
       "source_type": "community"
     },
     {
@@ -673,6 +722,53 @@
       "summary": "",
       "risk_level": "medium",
       "repo_source_url": "https://github.com/redis/go-redis",
+      "source_type": "community"
+    },
+    {
+      "key": "go/spf13/cobra",
+      "name": "cobra",
+      "repo": "spf13/cobra",
+      "language": "go",
+      "tier": "core",
+      "group": "cli",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 85,
+      "verified": true,
+      "official": true,
+      "tags": [
+        "cli",
+        "command-line",
+        "go",
+        "framework"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/spf13/cobra",
+      "source_type": "official"
+    },
+    {
+      "key": "go/spf13/viper",
+      "name": "viper",
+      "repo": "spf13/viper",
+      "language": "go",
+      "tier": "core",
+      "group": "config",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 85,
+      "verified": true,
+      "official": false,
+      "tags": [
+        "config",
+        "configuration",
+        "go",
+        "yaml",
+        "env"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/spf13/viper",
       "source_type": "community"
     },
     {
@@ -938,6 +1034,30 @@
       "source_type": "official"
     },
     {
+      "key": "rust/actix/actix-web",
+      "name": "actix-web",
+      "repo": "actix/actix-web",
+      "language": "rust",
+      "tier": "core",
+      "group": "web",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 85,
+      "verified": true,
+      "official": false,
+      "tags": [
+        "web",
+        "framework",
+        "rust",
+        "http",
+        "async"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/actix/actix-web",
+      "source_type": "community"
+    },
+    {
       "key": "rust/diesel-rs/diesel",
       "name": "diesel",
       "repo": "diesel-rs/diesel",
@@ -957,6 +1077,30 @@
       "risk_level": "medium",
       "repo_source_url": "https://github.com/diesel-rs/diesel",
       "source_type": "community"
+    },
+    {
+      "key": "rust/gfx-rs/wgpu",
+      "name": "wgpu",
+      "repo": "gfx-rs/wgpu",
+      "language": "rust",
+      "tier": "core",
+      "group": "graphics",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 85,
+      "verified": true,
+      "official": true,
+      "tags": [
+        "graphics",
+        "gpu",
+        "webgpu",
+        "rust",
+        "rendering"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/gfx-rs/wgpu",
+      "source_type": "official"
     },
     {
       "key": "rust/hyperium/hyper",
@@ -1022,6 +1166,30 @@
       "source_type": "community"
     },
     {
+      "key": "rust/rustls/rustls",
+      "name": "rustls",
+      "repo": "rustls/rustls",
+      "language": "rust",
+      "tier": "core",
+      "group": "security",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 85,
+      "verified": true,
+      "official": true,
+      "tags": [
+        "tls",
+        "security",
+        "rust",
+        "cryptography",
+        "networking"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/rustls/rustls",
+      "source_type": "official"
+    },
+    {
       "key": "rust/serde-rs/serde",
       "name": "serde",
       "repo": "serde-rs/serde",
@@ -1044,6 +1212,30 @@
       "risk_level": "low",
       "repo_source_url": "https://github.com/serde-rs/serde",
       "source_type": "official"
+    },
+    {
+      "key": "rust/smol-rs/smol",
+      "name": "smol",
+      "repo": "smol-rs/smol",
+      "language": "rust",
+      "tier": "core",
+      "group": "concurrency",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 85,
+      "verified": true,
+      "official": false,
+      "tags": [
+        "async",
+        "runtime",
+        "concurrency",
+        "rust",
+        "lightweight"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/smol-rs/smol",
+      "source_type": "community"
     },
     {
       "key": "rust/tokio-rs/tokio",
