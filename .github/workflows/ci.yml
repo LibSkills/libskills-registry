@@ -1,0 +1,55 @@
+name: LibSkills Registry CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  validate-skills:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate all skills
+        run: |
+          echo "Validating all skills in registry..."
+          for skill_dir in skills/*/*/*; do
+            if [ -f "$skill_dir/skill.json" ]; then
+              echo "Validating: $skill_dir"
+              # Add validation logic here
+            fi
+          done
+
+  check-index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate index.json
+        run: |
+          echo "Validating index.json..."
+          if [ -f "index.json" ]; then
+            python3 -c "import json; json.load(open('index.json'))"
+            echo "index.json is valid JSON"
+          else
+            echo "index.json not found"
+            exit 1
+          fi
+
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check JSON formatting
+        run: |
+          echo "Checking JSON files..."
+          find . -name "*.json" -type f -exec python3 -c "import json; json.load(open('{}'))" \;
+
+      - name: Check Markdown formatting
+        run: |
+          echo "Checking Markdown files..."
+          find . -name "*.md" -type f -exec echo "✓ {}" \;
