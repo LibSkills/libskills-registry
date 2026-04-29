@@ -60,11 +60,13 @@
   ],
   "files": {
     "P0": [
-      "quickstart.md"
+      "quickstart.md",
+      "quickstart-compact.md"
     ],
     "P1": [
       "overview.md",
       "pitfalls.md",
+      "pitfalls-compact.md",
       "safety.md"
     ],
     "P2": [
