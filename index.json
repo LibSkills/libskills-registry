@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-04-29T21:15:15Z",
+  "updated_at": "2026-04-29T22:02:57Z",
   "skills": [
     {
       "key": "cpp/Neargye/nameof",
@@ -21,6 +21,28 @@
       "summary": "",
       "risk_level": "medium",
       "repo_source_url": "https://github.com/Neargye/nameof",
+      "source_type": "community"
+    },
+    {
+      "key": "cpp/Tencent/rapidjson",
+      "name": "rapidjson",
+      "repo": "Tencent/rapidjson",
+      "language": "cpp",
+      "tier": "core",
+      "group": "serialization",
+      "version": "latest",
+      "skill_version": "1.0.0",
+      "trust_score": 80,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "cpp",
+        "core",
+        "serialization"
+      ],
+      "summary": "LibSkills skill for Tencent/rapidjson",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/Tencent/rapidjson",
       "source_type": "community"
     },
     {
@@ -68,6 +90,28 @@
       "source_type": "community"
     },
     {
+      "key": "cpp/drogonframework/drogon",
+      "name": "drogon",
+      "repo": "drogonframework/drogon",
+      "language": "cpp",
+      "tier": "core",
+      "group": "networking",
+      "version": "latest",
+      "skill_version": "1.0.0",
+      "trust_score": 80,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "cpp",
+        "core",
+        "networking"
+      ],
+      "summary": "LibSkills skill for drogonframework/drogon",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/drogonframework/drogon",
+      "source_type": "community"
+    },
+    {
       "key": "cpp/facebook/folly",
       "name": "folly",
       "repo": "facebook/folly",
@@ -112,6 +156,28 @@
       "risk_level": "low",
       "repo_source_url": "https://github.com/facebook/rocksdb",
       "source_type": "official"
+    },
+    {
+      "key": "cpp/facebook/zstd",
+      "name": "zstd",
+      "repo": "facebook/zstd",
+      "language": "cpp",
+      "tier": "core",
+      "group": "compression",
+      "version": "latest",
+      "skill_version": "1.0.0",
+      "trust_score": 80,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "cpp",
+        "core",
+        "compression"
+      ],
+      "summary": "LibSkills skill for facebook/zstd",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/facebook/zstd",
+      "source_type": "community"
     },
     {
       "key": "cpp/fmtlib/fmt",
@@ -210,6 +276,28 @@
       "source_type": "official"
     },
     {
+      "key": "cpp/google/snappy",
+      "name": "snappy",
+      "repo": "google/snappy",
+      "language": "cpp",
+      "tier": "core",
+      "group": "compression",
+      "version": "latest",
+      "skill_version": "1.0.0",
+      "trust_score": 80,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "cpp",
+        "core",
+        "compression"
+      ],
+      "summary": "LibSkills skill for google/snappy",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/google/snappy",
+      "source_type": "community"
+    },
+    {
       "key": "cpp/grpc/grpc",
       "name": "grpc",
       "repo": "grpc/grpc",
@@ -228,6 +316,28 @@
       "summary": "",
       "risk_level": "medium",
       "repo_source_url": "https://github.com/grpc/grpc",
+      "source_type": "community"
+    },
+    {
+      "key": "cpp/libuv/libuv",
+      "name": "libuv",
+      "repo": "libuv/libuv",
+      "language": "cpp",
+      "tier": "core",
+      "group": "networking",
+      "version": "latest",
+      "skill_version": "1.0.0",
+      "trust_score": 80,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "cpp",
+        "core",
+        "networking"
+      ],
+      "summary": "LibSkills skill for libuv/libuv",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/libuv/libuv",
       "source_type": "community"
     },
     {
@@ -589,6 +699,54 @@
       "source_type": "official"
     },
     {
+      "key": "python/aio-libs/aiohttp",
+      "name": "aiohttp",
+      "repo": "aio-libs/aiohttp",
+      "language": "python",
+      "tier": "core",
+      "group": "networking",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 85,
+      "verified": true,
+      "official": false,
+      "tags": [
+        "http",
+        "async",
+        "web",
+        "python",
+        "networking"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/aio-libs/aiohttp",
+      "source_type": "community"
+    },
+    {
+      "key": "python/celery/celery",
+      "name": "celery",
+      "repo": "celery/celery",
+      "language": "python",
+      "tier": "advanced",
+      "group": "task-queue",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 85,
+      "verified": true,
+      "official": false,
+      "tags": [
+        "task-queue",
+        "distributed",
+        "async",
+        "python",
+        "worker"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/celery/celery",
+      "source_type": "community"
+    },
+    {
       "key": "python/numpy/numpy",
       "name": "numpy",
       "repo": "numpy/numpy",
@@ -610,6 +768,30 @@
       "summary": "",
       "risk_level": "low",
       "repo_source_url": "https://github.com/numpy/numpy",
+      "source_type": "official"
+    },
+    {
+      "key": "python/pallets/flask",
+      "name": "flask",
+      "repo": "pallets/flask",
+      "language": "python",
+      "tier": "core",
+      "group": "web",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 85,
+      "verified": true,
+      "official": true,
+      "tags": [
+        "web",
+        "framework",
+        "python",
+        "wsgi",
+        "micro"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/pallets/flask",
       "source_type": "official"
     },
     {
@@ -683,6 +865,30 @@
       "risk_level": "low",
       "repo_source_url": "https://github.com/pytest-dev/pytest",
       "source_type": "official"
+    },
+    {
+      "key": "python/redis/redis-py",
+      "name": "redis-py",
+      "repo": "redis/redis-py",
+      "language": "python",
+      "tier": "core",
+      "group": "database",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 85,
+      "verified": true,
+      "official": false,
+      "tags": [
+        "database",
+        "cache",
+        "redis",
+        "python",
+        "async"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/redis/redis-py",
+      "source_type": "community"
     },
     {
       "key": "python/sqlalchemy/sqlalchemy",
