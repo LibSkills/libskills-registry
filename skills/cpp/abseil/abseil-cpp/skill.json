@@ -1,7 +1,7 @@
 {
   "name": "abseil-cpp",
   "repo": "abseil/abseil-cpp",
-  "language": "c++",
+  "language": "cpp",
   "tier": "core",
   "group": "utility",
   "version": "1.0.0",

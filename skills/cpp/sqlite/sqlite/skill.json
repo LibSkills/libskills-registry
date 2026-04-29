@@ -1,7 +1,7 @@
 {
   "name": "sqlite",
   "repo": "sqlite/sqlite",
-  "language": "c++",
+  "language": "cpp",
   "tier": "core",
   "group": "database",
   "version": "1.0.0",
