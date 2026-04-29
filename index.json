@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-04-29T22:04:06Z",
+  "updated_at": "2026-04-30T03:11:26Z",
   "skills": [
     {
       "key": "cpp/Neargye/nameof",
@@ -46,6 +46,28 @@
       "source_type": "community"
     },
     {
+      "key": "cpp/Tessil/robin-map",
+      "name": "robin-map",
+      "repo": "Tessil/robin-map",
+      "language": "cpp",
+      "tier": "core",
+      "group": "data-structures",
+      "version": "1.0.0",
+      "skill_version": "1.0.0",
+      "trust_score": 82,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "c++",
+        "core",
+        "data-structures"
+      ],
+      "summary": "LibSkills skill for Tessil/robin-map - C++ hash map and hash set implementation using robin hood hashing",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/Tessil/robin-map",
+      "source_type": "community"
+    },
+    {
       "key": "cpp/abseil/abseil-cpp",
       "name": "abseil-cpp",
       "repo": "abseil/abseil-cpp",
@@ -66,6 +88,28 @@
       "summary": "",
       "risk_level": "medium",
       "repo_source_url": "https://github.com/abseil/abseil-cpp",
+      "source_type": "community"
+    },
+    {
+      "key": "cpp/bombela/backward-cpp",
+      "name": "backward-cpp",
+      "repo": "bombela/backward-cpp",
+      "language": "cpp",
+      "tier": "utility",
+      "group": "debugging",
+      "version": "1.6",
+      "skill_version": "1.0.0",
+      "trust_score": 82,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "c++",
+        "utility",
+        "debugging"
+      ],
+      "summary": "LibSkills skill for bombela/backward-cpp - C++ stack trace pretty printer for crash debugging",
+      "risk_level": "low",
+      "repo_source_url": "https://github.com/bombela/backward-cpp",
       "source_type": "community"
     },
     {
@@ -109,6 +153,28 @@
       "summary": "LibSkills skill for drogonframework/drogon",
       "risk_level": "medium",
       "repo_source_url": "https://github.com/drogonframework/drogon",
+      "source_type": "community"
+    },
+    {
+      "key": "cpp/emilk/loguru",
+      "name": "loguru",
+      "repo": "emilk/loguru",
+      "language": "cpp",
+      "tier": "utility",
+      "group": "logging",
+      "version": "2.1.0",
+      "skill_version": "1.0.0",
+      "trust_score": 80,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "c++",
+        "utility",
+        "logging"
+      ],
+      "summary": "LibSkills skill for emilk/loguru - C++ logging library that is header-only and easy to use",
+      "risk_level": "low",
+      "repo_source_url": "https://github.com/emilk/loguru",
       "source_type": "community"
     },
     {

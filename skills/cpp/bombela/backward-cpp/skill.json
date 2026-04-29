@@ -1,0 +1,24 @@
+{
+  "name": "backward-cpp",
+  "repo": "bombela/backward-cpp",
+  "language": "c++",
+  "tier": "utility",
+  "group": "debugging",
+  "version": "1.6",
+  "skill_version": "1.0.0",
+  "trust_score": 82,
+  "verified": false,
+  "official": false,
+  "tags": ["c++", "utility", "debugging"],
+  "summary": "LibSkills skill for bombela/backward-cpp - C++ stack trace pretty printer for crash debugging",
+  "risk_level": "low",
+  "repo_skill": false,
+  "completeness": 100,
+  "read_order": ["quickstart.md", "overview.md", "pitfalls.md", "safety.md"],
+  "files": {
+    "P0": ["quickstart.md"],
+    "P1": ["overview.md", "pitfalls.md", "safety.md"],
+    "P2": ["best-practices.md", "lifecycle.md"],
+    "P3": ["performance.md", "threading.md"]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "loguru",
+  "repo": "emilk/loguru",
+  "language": "c++",
+  "tier": "utility",
+  "group": "logging",
+  "version": "2.1.0",
+  "skill_version": "1.0.0",
+  "trust_score": 80,
+  "verified": false,
+  "official": false,
+  "tags": ["c++", "utility", "logging"],
+  "summary": "LibSkills skill for emilk/loguru - C++ logging library that is header-only and easy to use",
+  "risk_level": "low",
+  "repo_skill": false,
+  "completeness": 100,
+  "read_order": ["quickstart.md", "overview.md", "pitfalls.md", "safety.md"],
+  "files": {
+    "P0": ["quickstart.md"],
+    "P1": ["overview.md", "pitfalls.md", "safety.md"],
+    "P2": ["best-practices.md", "lifecycle.md"],
+    "P3": ["performance.md", "threading.md"]
+  }
+}
