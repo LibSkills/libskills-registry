@@ -1,0 +1,77 @@
+{
+    "name": "aws-sdk-go",
+    "repo": "aws/aws-sdk-go",
+    "language": "go",
+    "tier": "core",
+    "group": "cloud",
+    "version": "1.0.0",
+    "skill_version": "0.1.0",
+    "schema": "libskills/v1",
+    "skill_type": "library",
+    "repo_skill": true,
+    "trust_score": 85,
+    "verified": true,
+    "official": true,
+    "updated_at": "2026-04-29T00:00:00Z",
+    "trust_score_sources": {
+        "official_review": 30,
+        "stars": 20,
+        "community_votes": 15,
+        "update_freshness": 10,
+        "issue_health": 10
+    },
+    "completeness": 100,
+    "risk_level": "medium",
+    "tags": [
+        "aws",
+        "cloud",
+        "sdk",
+        "go",
+        "s3",
+        "ec2"
+    ],
+    "compatibility": {
+        "go": [
+            "1.18",
+            "1.19",
+            "1.20",
+            "1.21",
+            "1.22"
+        ],
+        "platforms": [
+            "linux-x64",
+            "macos-x64",
+            "windows-x64"
+        ]
+    },
+    "dependencies": {
+        "required": [
+            "github.com/aws/aws-sdk-go"
+        ],
+        "optional": [],
+        "skills": []
+    },
+    "read_order": [
+        "quickstart.md",
+        "overview.md",
+        "pitfalls.md",
+        "safety.md"
+    ],
+    "files": {
+        "P0": [
+            "quickstart.md",
+            "overview.md",
+            "pitfalls.md",
+            "safety.md"
+        ],
+        "P1": [
+            "lifecycle.md",
+            "threading.md",
+            "best-practices.md"
+        ],
+        "P2": [
+            "performance.md"
+        ]
+    },
+    "inherits": null
+}

@@ -1,0 +1,74 @@
+{
+  "repo": "gfx-rs/wgpu",
+  "safe_name": "gfx-rs_wgpu",
+  "results": [
+    {
+      "strategy": "Custom",
+      "scores": {
+        "structure": 2.0,
+        "read_order": 1.5,
+        "pitfalls_quality": 2.5,
+        "quickstart_quality": 1.5,
+        "total": 7.5
+      },
+      "details": {
+        "structure": {
+          "present": [
+            "quickstart.md",
+            "overview.md",
+            "pitfalls.md",
+            "safety.md",
+            "best-practices.md",
+            "lifecycle.md",
+            "performance.md",
+            "threading.md"
+          ],
+          "missing": []
+        },
+        "read_order": {
+          "skill_json": true,
+          "read_order": [
+            "quickstart.md",
+            "overview.md",
+            "pitfalls.md",
+            "safety.md",
+            "best-practices.md",
+            "lifecycle.md",
+            "performance.md",
+            "threading.md"
+          ],
+          "cross_references": 5,
+          "cross_ref_details": {
+            "quickstart.md": [
+              "performance.md"
+            ],
+            "overview.md": [
+              "performance.md"
+            ],
+            "pitfalls.md": [
+              "lifecycle.md"
+            ],
+            "lifecycle.md": [
+              "performance.md"
+            ],
+            "threading.md": [
+              "safety.md"
+            ]
+          },
+          "read_order_valid": "8/8 files exist"
+        },
+        "pitfalls_reason": "Good examples with clear BAD/GOOD pairs, but missing real-world context for some pitfalls",
+        "quickstart_reason": "Not copy-paste usable, lacks essential integration code"
+      }
+    }
+  ],
+  "manual": null,
+  "summary": {
+    "best_strategy": "Custom",
+    "best_score": 7.5,
+    "all_scores": {
+      "Custom": 7.5
+    },
+    "manual_score": null
+  }
+}

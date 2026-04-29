@@ -1,0 +1,7 @@
+# Overview
+
+aio-libs/aiohttp is a high-performance asynchronous HTTP client/server library for C++ that provides both client and server capabilities. It is designed for building scalable network applications with support for HTTP/1.1, HTTP/2, WebSockets, and streaming data. The library uses an asynchronous event-driven architecture built on top of libuv or similar event loops, making it suitable for high-concurrency applications.
+
+Use aiohttp when you need to make many concurrent HTTP requests, build REST APIs, implement WebSocket servers, or handle streaming data efficiently. Do NOT use it for simple synchronous HTTP requests where a library like cpp-httplib would suffice, or in environments where you cannot use asynchronous programming patterns. The library is ideal for microservices, API gateways, real-time data pipelines, and web scraping at scale.
+
+Key design principles include: non-blocking I/O with futures/promises, connection pooling for efficient resource reuse, automatic request retry with configurable policies, built-in compression support (gzip, deflate), cookie management, and SSL/TLS support. The library separates concerns through a modular architecture with interchangeable connectors, serializers, and middleware components.
