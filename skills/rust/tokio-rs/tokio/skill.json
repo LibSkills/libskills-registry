@@ -1,43 +1,79 @@
 {
-  "name": "tokio",
-  "repo": "tokio-rs/tokio",
-  "language": "rust",
-  "tier": "tier1",
-  "group": "main",
-  "version": "1.42.0",
-  "skill_version": "0.1.0",
-  "schema": "libskills/v1",
-  "skill_type": "runtime",
-  "repo_skill": true,
-  "trust_score": 98,
-  "verified": true,
-  "official": true,
-  "updated_at": "2026-04-28T00:00:00Z",
-  "trust_score_sources": {
-    "official_review": 40,
-    "stars": 20,
-    "community_votes": 20,
-    "update_freshness": 13,
-    "issue_health": 5
-  },
-  "completeness": 100,
-  "risk_level": "high",
-  "tags": ["async", "runtime", "networking", "io", "scheduler"],
-  "compatibility": {
-    "rust": ["1.70", "1.75", "stable"],
-    "platforms": ["linux-x64", "macos-x64", "macos-arm64", "windows-x64"]
-  },
-  "dependencies": {
-    "required": [],
-    "optional": ["tokio-stream", "tokio-util"],
-    "skills": []
-  },
-  "read_order": ["overview.md", "pitfalls.md", "safety.md"],
-  "files": {
-    "P0": ["overview.md", "pitfalls.md", "safety.md"],
-    "P1": ["lifecycle.md", "threading.md", "best-practices.md"],
-    "P2": ["performance.md"],
-    "P3": ["examples/basic.rs"]
-  },
-  "inherits": null
+    "name": "tokio",
+    "repo": "tokio-rs/tokio",
+    "language": "rust",
+    "tier": "tier1",
+    "group": "main",
+    "version": "1.42.0",
+    "skill_version": "0.1.0",
+    "schema": "libskills/v1",
+    "skill_type": "runtime",
+    "repo_skill": true,
+    "trust_score": 98,
+    "verified": true,
+    "official": true,
+    "updated_at": "2026-04-28T00:00:00Z",
+    "trust_score_sources": {
+        "official_review": 40,
+        "stars": 20,
+        "community_votes": 20,
+        "update_freshness": 13,
+        "issue_health": 5
+    },
+    "completeness": 100,
+    "risk_level": "high",
+    "tags": [
+        "async",
+        "runtime",
+        "networking",
+        "io",
+        "scheduler"
+    ],
+    "compatibility": {
+        "rust": [
+            "1.70",
+            "1.75",
+            "stable"
+        ],
+        "platforms": [
+            "linux-x64",
+            "macos-x64",
+            "macos-arm64",
+            "windows-x64"
+        ]
+    },
+    "dependencies": {
+        "required": [],
+        "optional": [
+            "tokio-stream",
+            "tokio-util"
+        ],
+        "skills": []
+    },
+    "read_order": [
+        "quickstart.md",
+        "overview.md",
+        "pitfalls.md",
+        "safety.md"
+    ],
+    "files": {
+        "P0": [
+            "quickstart.md",
+            "overview.md",
+            "pitfalls.md",
+            "safety.md"
+        ],
+        "P1": [
+            "lifecycle.md",
+            "threading.md",
+            "best-practices.md"
+        ],
+        "P2": [
+            "performance.md"
+        ],
+        "P3": [
+            "examples/basic.rs"
+        ]
+    },
+    "inherits": null
 }

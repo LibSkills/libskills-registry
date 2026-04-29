@@ -1,43 +1,82 @@
 {
-  "name": "fastapi",
-  "repo": "tiangolo/fastapi",
-  "language": "python",
-  "tier": "tier1",
-  "group": "main",
-  "version": "0.115.0",
-  "skill_version": "0.1.0",
-  "schema": "libskills/v1",
-  "skill_type": "framework",
-  "repo_skill": true,
-  "trust_score": 96,
-  "verified": true,
-  "official": true,
-  "updated_at": "2026-04-28T00:00:00Z",
-  "trust_score_sources": {
-    "official_review": 40,
-    "stars": 20,
-    "community_votes": 18,
-    "update_freshness": 13,
-    "issue_health": 5
-  },
-  "completeness": 100,
-  "risk_level": "medium",
-  "tags": ["web", "api", "async", "openapi", "pydantic"],
-  "compatibility": {
-    "python": ["3.8", "3.9", "3.10", "3.11", "3.12"],
-    "platforms": ["linux-x64", "macos-x64", "windows-x64"]
-  },
-  "dependencies": {
-    "required": ["starlette", "pydantic"],
-    "optional": ["uvicorn"],
-    "skills": []
-  },
-  "read_order": ["overview.md", "pitfalls.md", "safety.md"],
-  "files": {
-    "P0": ["overview.md", "pitfalls.md", "safety.md"],
-    "P1": ["lifecycle.md", "threading.md", "best-practices.md"],
-    "P2": ["performance.md"],
-    "P3": ["examples/basic.py"]
-  },
-  "inherits": null
+    "name": "fastapi",
+    "repo": "tiangolo/fastapi",
+    "language": "python",
+    "tier": "tier1",
+    "group": "main",
+    "version": "0.115.0",
+    "skill_version": "0.1.0",
+    "schema": "libskills/v1",
+    "skill_type": "framework",
+    "repo_skill": true,
+    "trust_score": 96,
+    "verified": true,
+    "official": true,
+    "updated_at": "2026-04-28T00:00:00Z",
+    "trust_score_sources": {
+        "official_review": 40,
+        "stars": 20,
+        "community_votes": 18,
+        "update_freshness": 13,
+        "issue_health": 5
+    },
+    "completeness": 100,
+    "risk_level": "medium",
+    "tags": [
+        "web",
+        "api",
+        "async",
+        "openapi",
+        "pydantic"
+    ],
+    "compatibility": {
+        "python": [
+            "3.8",
+            "3.9",
+            "3.10",
+            "3.11",
+            "3.12"
+        ],
+        "platforms": [
+            "linux-x64",
+            "macos-x64",
+            "windows-x64"
+        ]
+    },
+    "dependencies": {
+        "required": [
+            "starlette",
+            "pydantic"
+        ],
+        "optional": [
+            "uvicorn"
+        ],
+        "skills": []
+    },
+    "read_order": [
+        "quickstart.md",
+        "overview.md",
+        "pitfalls.md",
+        "safety.md"
+    ],
+    "files": {
+        "P0": [
+            "quickstart.md",
+            "overview.md",
+            "pitfalls.md",
+            "safety.md"
+        ],
+        "P1": [
+            "lifecycle.md",
+            "threading.md",
+            "best-practices.md"
+        ],
+        "P2": [
+            "performance.md"
+        ],
+        "P3": [
+            "examples/basic.py"
+        ]
+    },
+    "inherits": null
 }
