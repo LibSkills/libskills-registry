@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-05-01T10:19:04Z",
+  "updated_at": "2026-05-01T10:19:50Z",
   "skills": [
     {
       "key": "cpp/CLI11",
@@ -279,6 +279,28 @@
       "summary": "",
       "risk_level": "medium",
       "repo_source_url": "https://github.com/Ewenwan/ceres-solver",
+      "source_type": "community"
+    },
+    {
+      "key": "cpp/cnjinhao/nana",
+      "name": "nana",
+      "repo": "cnjinhao/nana",
+      "language": "c++",
+      "tier": "advanced",
+      "group": "gui",
+      "version": "1.0.0",
+      "skill_version": "1.0.0",
+      "trust_score": 80,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "c++",
+        "advanced",
+        "gui"
+      ],
+      "summary": "LibSkills skill for cnjinhao/nana - A cross-platform C++ GUI library",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/cnjinhao/nana",
       "source_type": "community"
     },
     {
