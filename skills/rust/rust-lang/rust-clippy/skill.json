@@ -1,0 +1,45 @@
+{
+  "name": "rust-clippy",
+  "repo": "rust-lang/rust-clippy",
+  "language": "rust",
+  "tier": "utility",
+  "group": "tooling",
+  "version": "1.0.0",
+  "skill_version": "1.0.0",
+  "trust_score": 85,
+  "verified": false,
+  "official": false,
+  "tags": [
+    "rust",
+    "utility",
+    "tooling"
+  ],
+  "summary": "LibSkills skill for rust-lang/rust-clippy - A collection of lints to catch common mistakes and improve Rust code",
+  "risk_level": "low",
+  "repo_skill": false,
+  "completeness": 100,
+  "read_order": [
+    "quickstart.md",
+    "overview.md",
+    "pitfalls.md",
+    "safety.md"
+  ],
+  "files": {
+    "P0": [
+      "quickstart.md"
+    ],
+    "P1": [
+      "overview.md",
+      "pitfalls.md",
+      "safety.md"
+    ],
+    "P2": [
+      "best-practices.md",
+      "lifecycle.md"
+    ],
+    "P3": [
+      "performance.md",
+      "threading.md"
+    ]
+  }
+}
