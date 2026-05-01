@@ -1,0 +1,66 @@
+{
+  "repo": "boostorg/gil",
+  "safe_name": "boostorg_gil",
+  "results": [
+    {
+      "strategy": "Custom",
+      "scores": {
+        "structure": 2.0,
+        "read_order": 1.2,
+        "pitfalls_quality": 2.8,
+        "quickstart_quality": 2.5,
+        "total": 8.6
+      },
+      "details": {
+        "structure": {
+          "present": [
+            "quickstart.md",
+            "overview.md",
+            "pitfalls.md",
+            "safety.md",
+            "best-practices.md",
+            "lifecycle.md",
+            "performance.md",
+            "threading.md"
+          ],
+          "missing": []
+        },
+        "read_order": {
+          "skill_json": true,
+          "read_order": [
+            "quickstart.md",
+            "overview.md",
+            "pitfalls.md",
+            "safety.md",
+            "best-practices.md",
+            "lifecycle.md",
+            "performance.md",
+            "threading.md"
+          ],
+          "cross_references": 3,
+          "cross_ref_details": {
+            "overview.md": [
+              "safety.md",
+              "performance.md"
+            ],
+            "threading.md": [
+              "safety.md"
+            ]
+          },
+          "read_order_valid": "8/8 files exist"
+        },
+        "pitfalls_reason": "Clear, correct, and well-structured with real-world GIL pitfalls",
+        "quickstart_reason": "Clear, copy-paste code with good coverage, but lacks error handling and includes a minor bug (resize_view requires header)"
+      }
+    }
+  ],
+  "manual": null,
+  "summary": {
+    "best_strategy": "Custom",
+    "best_score": 8.6,
+    "all_scores": {
+      "Custom": 8.6
+    },
+    "manual_score": null
+  }
+}

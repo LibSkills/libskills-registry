@@ -1,7 +1,28 @@
 {
   "version": "1.0",
-  "updated_at": "2026-04-30T03:11:26Z",
+  "updated_at": "2026-05-01T10:01:48Z",
   "skills": [
+    {
+      "key": "cpp/CLI11",
+      "name": "CLI11",
+      "repo": "CLIUtils/CLI11",
+      "language": "cpp",
+      "tier": "tier1",
+      "group": "main",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 8,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "cpp",
+        "cli11"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/CLIUtils/CLI11",
+      "source_type": "community"
+    },
     {
       "key": "cpp/Neargye/nameof",
       "name": "nameof",
@@ -21,6 +42,48 @@
       "summary": "",
       "risk_level": "medium",
       "repo_source_url": "https://github.com/Neargye/nameof",
+      "source_type": "community"
+    },
+    {
+      "key": "cpp/SDL",
+      "name": "SDL",
+      "repo": "libsdl-org/SDL",
+      "language": "cpp",
+      "tier": "tier1",
+      "group": "main",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 8,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "cpp",
+        "sdl"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/libsdl-org/SDL",
+      "source_type": "community"
+    },
+    {
+      "key": "cpp/SFML",
+      "name": "SFML",
+      "repo": "SFML/SFML",
+      "language": "cpp",
+      "tier": "tier1",
+      "group": "main",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 85,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "cpp",
+        "sfml"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/SFML/SFML",
       "source_type": "community"
     },
     {
@@ -49,7 +112,7 @@
       "key": "cpp/Tessil/robin-map",
       "name": "robin-map",
       "repo": "Tessil/robin-map",
-      "language": "cpp",
+      "language": "c++",
       "tier": "core",
       "group": "data-structures",
       "version": "1.0.0",
@@ -91,10 +154,31 @@
       "source_type": "community"
     },
     {
+      "key": "cpp/asio",
+      "name": "asio",
+      "repo": "boostorg/asio",
+      "language": "cpp",
+      "tier": "tier1",
+      "group": "main",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 80,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "cpp",
+        "asio"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/boostorg/asio",
+      "source_type": "community"
+    },
+    {
       "key": "cpp/bombela/backward-cpp",
       "name": "backward-cpp",
       "repo": "bombela/backward-cpp",
-      "language": "cpp",
+      "language": "c++",
       "tier": "utility",
       "group": "debugging",
       "version": "1.6",
@@ -110,6 +194,27 @@
       "summary": "LibSkills skill for bombela/backward-cpp - C++ stack trace pretty printer for crash debugging",
       "risk_level": "low",
       "repo_source_url": "https://github.com/bombela/backward-cpp",
+      "source_type": "community"
+    },
+    {
+      "key": "cpp/boostorg_filesystem",
+      "name": "boost-filesystem",
+      "repo": "boostorg/filesystem",
+      "language": "cpp",
+      "tier": "tier1",
+      "group": "main",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 8,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "cpp",
+        "filesystem"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/boostorg/filesystem",
       "source_type": "community"
     },
     {
@@ -131,6 +236,111 @@
       "summary": "",
       "risk_level": "medium",
       "repo_source_url": "https://github.com/catchorg/Catch2",
+      "source_type": "community"
+    },
+    {
+      "key": "cpp/ceres-solver",
+      "name": "ceres-solver",
+      "repo": "Ewenwan/ceres-solver",
+      "language": "cpp",
+      "tier": "tier1",
+      "group": "main",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 7,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "cpp",
+        "ceres-solver"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/Ewenwan/ceres-solver",
+      "source_type": "community"
+    },
+    {
+      "key": "cpp/concurrentqueue",
+      "name": "concurrentqueue",
+      "repo": "Cameron314/concurrentqueue",
+      "language": "cpp",
+      "tier": "tier1",
+      "group": "main",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 8,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "cpp",
+        "concurrentqueue"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/Cameron314/concurrentqueue",
+      "source_type": "community"
+    },
+    {
+      "key": "cpp/curl",
+      "name": "curl",
+      "repo": "libcurl/curl",
+      "language": "cpp",
+      "tier": "tier1",
+      "group": "main",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 8,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "cpp",
+        "curl"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/libcurl/curl",
+      "source_type": "community"
+    },
+    {
+      "key": "cpp/cxxopts",
+      "name": "cxxopts",
+      "repo": "jarro2783/cxxopts",
+      "language": "cpp",
+      "tier": "tier1",
+      "group": "main",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 8,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "cpp",
+        "cxxopts"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/jarro2783/cxxopts",
+      "source_type": "community"
+    },
+    {
+      "key": "cpp/double-conversion",
+      "name": "double-conversion",
+      "repo": "google/double-conversion",
+      "language": "cpp",
+      "tier": "tier1",
+      "group": "main",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 8,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "cpp",
+        "double-conversion"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/google/double-conversion",
       "source_type": "community"
     },
     {
@@ -156,10 +366,31 @@
       "source_type": "community"
     },
     {
+      "key": "cpp/eigen",
+      "name": "eigen",
+      "repo": "libigl/eigen",
+      "language": "cpp",
+      "tier": "tier1",
+      "group": "main",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 8,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "cpp",
+        "eigen"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/libigl/eigen",
+      "source_type": "community"
+    },
+    {
       "key": "cpp/emilk/loguru",
       "name": "loguru",
       "repo": "emilk/loguru",
-      "language": "cpp",
+      "language": "c++",
       "tier": "utility",
       "group": "logging",
       "version": "2.1.0",
@@ -175,6 +406,27 @@
       "summary": "LibSkills skill for emilk/loguru - C++ logging library that is header-only and easy to use",
       "risk_level": "low",
       "repo_source_url": "https://github.com/emilk/loguru",
+      "source_type": "community"
+    },
+    {
+      "key": "cpp/f410",
+      "name": "f410",
+      "repo": "stduuid/f410",
+      "language": "cpp",
+      "tier": "tier1",
+      "group": "main",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 8,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "cpp",
+        "f410"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/stduuid/f410",
       "source_type": "community"
     },
     {
@@ -246,6 +498,48 @@
       "source_type": "community"
     },
     {
+      "key": "cpp/flat_hash_map",
+      "name": "flat_hash_map",
+      "repo": "skarupke/flat_hash_map",
+      "language": "cpp",
+      "tier": "tier1",
+      "group": "main",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 8,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "cpp",
+        "flat_hash_map"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/skarupke/flat_hash_map",
+      "source_type": "community"
+    },
+    {
+      "key": "cpp/fltk",
+      "name": "fltk",
+      "repo": "fltk/fltk",
+      "language": "cpp",
+      "tier": "tier1",
+      "group": "main",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 8,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "cpp",
+        "fltk"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/fltk/fltk",
+      "source_type": "community"
+    },
+    {
       "key": "cpp/fmtlib/fmt",
       "name": "fmt",
       "repo": "fmtlib/fmt",
@@ -292,6 +586,27 @@
       "risk_level": "medium",
       "repo_source_url": "https://github.com/gabime/spdlog",
       "source_type": "official"
+    },
+    {
+      "key": "cpp/gil",
+      "name": "gil",
+      "repo": "boostorg/gil",
+      "language": "cpp",
+      "tier": "tier1",
+      "group": "main",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 8,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "cpp",
+        "gil"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/boostorg/gil",
+      "source_type": "community"
     },
     {
       "key": "cpp/google/benchmark",
@@ -385,6 +700,48 @@
       "source_type": "community"
     },
     {
+      "key": "cpp/imgui",
+      "name": "imgui",
+      "repo": "ocornut/imgui",
+      "language": "cpp",
+      "tier": "tier1",
+      "group": "main",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 7,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "cpp",
+        "imgui"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/ocornut/imgui",
+      "source_type": "community"
+    },
+    {
+      "key": "cpp/junction",
+      "name": "junction",
+      "repo": "preshing/junction",
+      "language": "cpp",
+      "tier": "tier1",
+      "group": "main",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 7,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "cpp",
+        "junction"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/preshing/junction",
+      "source_type": "community"
+    },
+    {
       "key": "cpp/libuv/libuv",
       "name": "libuv",
       "repo": "libuv/libuv",
@@ -407,6 +764,27 @@
       "source_type": "community"
     },
     {
+      "key": "cpp/martinmoene_filesystem",
+      "name": "filesystem-experimental",
+      "repo": "martinmoene/filesystem",
+      "language": "cpp",
+      "tier": "tier1",
+      "group": "main",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 85,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "cpp",
+        "filesystem"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/martinmoene/filesystem",
+      "source_type": "community"
+    },
+    {
       "key": "cpp/microsoft/cpprestsdk",
       "name": "cpprestsdk",
       "repo": "microsoft/cpprestsdk",
@@ -425,6 +803,27 @@
       "summary": "",
       "risk_level": "medium",
       "repo_source_url": "https://github.com/microsoft/cpprestsdk",
+      "source_type": "community"
+    },
+    {
+      "key": "cpp/msgpack-c",
+      "name": "msgpack-c",
+      "repo": "usoa/msgpack-c",
+      "language": "cpp",
+      "tier": "tier1",
+      "group": "main",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 8,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "cpp",
+        "msgpack-c"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/usoa/msgpack-c",
       "source_type": "community"
     },
     {
@@ -494,6 +893,48 @@
       "source_type": "official"
     },
     {
+      "key": "cpp/parallel-hashmap",
+      "name": "parallel-hashmap",
+      "repo": "greg7mdp/parallel-hashmap",
+      "language": "cpp",
+      "tier": "tier1",
+      "group": "main",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 7,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "cpp",
+        "parallel-hashmap"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/greg7mdp/parallel-hashmap",
+      "source_type": "community"
+    },
+    {
+      "key": "cpp/plog",
+      "name": "plog",
+      "repo": "SergiusTheBest/plog",
+      "language": "cpp",
+      "tier": "tier1",
+      "group": "main",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 8,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "cpp",
+        "plog"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/SergiusTheBest/plog",
+      "source_type": "community"
+    },
+    {
       "key": "cpp/protocolbuffers/protobuf",
       "name": "protobuf",
       "repo": "protocolbuffers/protobuf",
@@ -512,6 +953,48 @@
       "summary": "",
       "risk_level": "medium",
       "repo_source_url": "https://github.com/protocolbuffers/protobuf",
+      "source_type": "community"
+    },
+    {
+      "key": "cpp/pystring",
+      "name": "pystring",
+      "repo": "imageworks/pystring",
+      "language": "cpp",
+      "tier": "tier1",
+      "group": "main",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 8,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "cpp",
+        "pystring"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/imageworks/pystring",
+      "source_type": "community"
+    },
+    {
+      "key": "cpp/readerwriterqueue",
+      "name": "readerwriterqueue",
+      "repo": "Cameron314/readerwriterqueue",
+      "language": "cpp",
+      "tier": "tier1",
+      "group": "main",
+      "version": "1.0.0",
+      "skill_version": "0.1.0",
+      "trust_score": 7,
+      "verified": false,
+      "official": false,
+      "tags": [
+        "cpp",
+        "readerwriterqueue"
+      ],
+      "summary": "",
+      "risk_level": "medium",
+      "repo_source_url": "https://github.com/Cameron314/readerwriterqueue",
       "source_type": "community"
     },
     {

@@ -1,0 +1,57 @@
+{
+  "repo": "CLIUtils/CLI11",
+  "safe_name": "CLIUtils_CLI11",
+  "results": [
+    {
+      "strategy": "Custom",
+      "scores": {
+        "structure": 2.0,
+        "read_order": 1.0,
+        "pitfalls_quality": 2.5,
+        "quickstart_quality": 2.5,
+        "total": 8.0
+      },
+      "details": {
+        "structure": {
+          "present": [
+            "quickstart.md",
+            "overview.md",
+            "pitfalls.md",
+            "safety.md",
+            "best-practices.md",
+            "lifecycle.md",
+            "performance.md",
+            "threading.md"
+          ],
+          "missing": []
+        },
+        "read_order": {
+          "skill_json": true,
+          "read_order": [
+            "quickstart.md",
+            "overview.md",
+            "pitfalls.md",
+            "safety.md",
+            "best-practices.md",
+            "lifecycle.md",
+            "performance.md",
+            "threading.md"
+          ],
+          "cross_references": 0,
+          "read_order_valid": "8/8 files exist"
+        },
+        "pitfalls_reason": "Good examples but missing context for some pitfalls",
+        "quickstart_reason": "Clear, correct, and immediately usable examples covering essential features"
+      }
+    }
+  ],
+  "manual": null,
+  "summary": {
+    "best_strategy": "Custom",
+    "best_score": 8.0,
+    "all_scores": {
+      "Custom": 8.0
+    },
+    "manual_score": null
+  }
+}
