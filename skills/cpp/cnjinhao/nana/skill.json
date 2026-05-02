@@ -1,7 +1,7 @@
 {
   "name": "nana",
   "repo": "cnjinhao/nana",
-  "language": "c++",
+  "language": "cpp",
   "tier": "advanced",
   "group": "gui",
   "version": "1.0.0",

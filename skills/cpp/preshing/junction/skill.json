@@ -1,7 +1,7 @@
 {
   "name": "junction",
   "repo": "preshing/junction",
-  "language": "c++",
+  "language": "cpp",
   "tier": "advanced",
   "group": "concurrency",
   "version": "1.0.0",
